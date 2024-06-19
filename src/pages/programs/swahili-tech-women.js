@@ -7,9 +7,8 @@ import Activities from '@/components/stw/Activities'
 const SwahiliTechWomen = () => {
   return (
     <>
+      
       <STWHero />
-      <STWExplanation />
-      <Activities />
       <div style={{ backgroundColor: '#fff' }} className='p-6'>
         <div className='container '>
           <section>
@@ -27,7 +26,7 @@ const SwahiliTechWomen = () => {
                     efforts. The initiative fosters inclusivity and
                     empowerment,focusing on enhancing technical
                     skills,confidence,and establishing a supportive community
-                    for women in tech.Mentorship and guidance programs connect
+                    for women.Mentorship and guidance programs connect
                     individuals with seasoned professionals to share knowledge
                     and offer support for growth and success in the tech
                     industry.
@@ -38,6 +37,10 @@ const SwahiliTechWomen = () => {
           </section>
         </div>
       </div>
+      <STWExplanation />
+      <Activities />
+      
+
     </>
   )
 }
